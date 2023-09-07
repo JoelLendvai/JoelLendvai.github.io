@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #474747;
+		color: #000000;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2147,7 +2147,7 @@ input, select, textarea {
 		.icon.major {
 			text-align: center;
 			cursor: default;
-			background-color: #425944;
+			background-color: #303033;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
@@ -2158,7 +2158,7 @@ input, select, textarea {
 			width: 5em;
 			height: 5em;
 			line-height: 5em;
-			box-shadow: 0 0 0 7px rgb(136, 126, 98), 0 0 0 8px #556b46;
+			box-shadow: 0 0 0 7px rgb(160, 154, 137), 0 0 0 8px #556b46;
 			margin: 0 0 2em 0;
 		}
 
@@ -2415,7 +2415,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		background-color: #5e01a1;
+		background-color: #D9C79F;
 		border-radius: 25px;
 		border: 0;
 		color: #fff;
@@ -2532,7 +2532,7 @@ input, select, textarea {
 	#header {
 		text-align: center;
 		padding: 3em 0 0 0;
-		background-color: #fff;
+		background-color: #D9C79F;
 		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
 		background-position: top left,					top left,					top left;
 		background-size: 100% 6em,					100% 6em,					auto;
@@ -2552,7 +2552,7 @@ input, select, textarea {
 
 	#nav {
 		cursor: default;
-		background-color: #395334;
+		background-color: #303033;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2565,7 +2565,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			height: 0.75em;
-			background-color: #4b0097;
+			background-color: #D9C79F;
 			background-image: url("images/bg01.png");
 		}
 
@@ -2613,7 +2613,7 @@ input, select, textarea {
 						bottom: -0.5em;
 						left: 50%;
 						margin-left: -0.375em;
-						background-color: #4b0097;
+						background-color: #D9C79F;
 						background-image: url("images/tree.jpg");
 					}
 
@@ -2675,10 +2675,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("tree.jpg");
+		background-image: url("../../images/lake.gif");
 		background-position: center center;
 		background-size: cover;
-		height: 28em;
+		height: 20em;
 		text-align: center;
 		position: relative;
 	}
@@ -2688,16 +2688,16 @@ input, select, textarea {
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			background: #212121;
+			background: #cf1515;
 			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
-			padding: 1.5em 0;
+			padding: 1em 0;
 		}
 
 			#banner header h2 {
 				display: inline-block;
 				margin: 0;
-				font-size: 1.25em;
+				font-size: 2.25em;
 				vertical-align: middle;
 			}
 
@@ -2725,33 +2725,30 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #95b798;
+			background: #E0DBD2;
 		}
 
 		.wrapper.style2 {
 			background-color: #fff;
-			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
-			background-position: top left,						bottom left,					top left;
-			background-size: 100% 6em,						100% 6em,						auto;
-			background-repeat: no-repeat,						no-repeat,						repeat;
+			background-image: url("/../../images/timber.png");
 		}
 
 		.wrapper.style3 {
-			background-color: #6c896f;
+			background-color: #E0DBD2;
 			background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 			background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-			color: #fff;
+			color: #000000;
 		}
 
 			.wrapper.style3 .button {
-				background: #fff;
-				color: #474747;
+				background: #9f9278;
+				color: #ffffff;
 			}
 
 				.wrapper.style3 .button:hover {
-					color: #37c0fb !important;
+					color: #000000 !important;
 				}
 
 /* CTA */

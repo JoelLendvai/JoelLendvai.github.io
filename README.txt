@@ -3,6 +3,15 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
+------READ ME------------------------------------------------
+
+This website teaching portfolio was created by Joel Lendvai S00303979 for COMP208 AT1.
+The website can be reached via joellendvai.github.io
+This project was built upon using the Arcana HTML template and modified to meet assignment standards.
+
+-------------------------------------------------------------
+
+
 A business/corporate style responsive site template. It's pretty barebones but should
 go over pretty well for folks wanting to get their serious business on.
 
@@ -30,3 +39,5 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
